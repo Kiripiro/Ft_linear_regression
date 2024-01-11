@@ -71,7 +71,8 @@ In this project, it had to be done with the gradient descent algorithm. You can 
 
 ### Get a visual representation of the given dataset
 
-You can use pyplot to visualize data in Python. Here we have a 2D dataset, so we use the scatter function. Here is what we get:![First look of our dataset](./screenshots/raw_dataset.png)
+You can use pyplot to visualize data in Python. Here we have a 2D dataset, so we use the scatter function. Here is what we get:
+![First look of our dataset](./screenshots/raw_dataset.png)
 
 We can see that the axis have a really different scale. In general, machine learning algortihms work best with unskewed data, so what we can do is normalizing our data, to constrain every example between 0 and 1 on both axis. 
 
@@ -113,7 +114,10 @@ Iterations: 602
 
 ### Plot our line and make predictions
 
-We now have our line that minimizes the average distance with examples. We can plot it on our dataset to see if our values seem correct: ![Our line on our dataset](./screenshots/linear_regression.png)
+We now have our line that minimizes the average distance with examples. 
+
+We can plot it on our dataset to see if our values seem correct:
+![Our line on our dataset](./screenshots/linear_regression.png)
 
 The line seems good, and now we can do predictions by reading on the line, or by using the formula given previously.
 
